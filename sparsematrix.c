@@ -1,4 +1,4 @@
-#include<stdio.h>
+ #include<stdio.h>
 
 int main(){
   int matrix[10][10], sparse[100][3];
@@ -9,12 +9,12 @@ int main(){
 
   printf("Enter the matrix elements:\n");
   for(i=0;i<r;i++)
-    for(j=0;j<c;j++)
-      scanf("%d",&matrix[i][j]);
+   for(j=0;j<c;j++)
+      scanf("%d",&matrix[i][j]); 
 
-  // to count the non zero elements
+ //  to count the non zero elements
 
-  for(i=0;i<r;i++)
+     for(i=0;i<r;i++)
     for(j=0;j<c;j++)
       if(matrix[i][j]!=0)
         b++;
@@ -45,4 +45,36 @@ int main(){
   printf("%d\t%d\t%d\n",sparse[i][0],sparse[i][1],sparse[i][2]);
 
   return 0;
-}
+} 
+
+/* #include<stdio.h>
+
+int main()
+{
+  int a[10][10],r,c,i,j;
+  int zero=0,nonzero=0;
+
+  printf("Enter Rows and Columns:");
+  scanf("%d %d",&r,&c);
+
+  printf("Enter matrix elements:\n");
+  for(i=0;i<r;i++)
+  {
+    for(j=0;j<c;j++)
+    {
+      scanf("%d",&a[i][j]);
+
+      if(a[i][j]==0)
+        zero++;
+      else
+        nonzero++;
+    }
+  }
+
+  if(zero>nonzero)
+    printf("The Matrix is a Sparse Matrix.\n");
+  else
+    printf("The Matrix is not a Sparse Matrix.\n");
+
+  return 0;
+} */
