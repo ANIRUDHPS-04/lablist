@@ -60,3 +60,16 @@ for(i = 0;i < n;i++){
 
 return 0;
 }
+
+//Output
+/*
+Enter the Number of Customers:3
+Enter Customers Addresses:
+ani@gmail.com
+anirudh@gmail.com
+ani@gmail.com
+
+Email Addresses after Removing Duplicates:
+ani@gmail.com
+anirudh@gmail.com
+*/
