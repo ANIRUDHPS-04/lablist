@@ -42,6 +42,16 @@ int main() {
   return 0;
 }
 
+//Output
+/*
+Enter the Number of Elements:4
+Enter 4 Numbers:
+1
+2
+3
+4
 
+Prime Numbers are:2 3
+*/
   
 
