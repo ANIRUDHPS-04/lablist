@@ -37,3 +37,19 @@ int main()
 
   return 0;
 }
+
+//Output
+/*
+Enter the size of matrix:3
+Enter the matrix:
+1 2 3
+2 4 5
+3 5 6
+
+Matrix:
+1 2 3 
+2 4 5 
+3 5 6 
+
+The Matrix is symmetric.
+*/
