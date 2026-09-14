@@ -44,3 +44,16 @@ int main()
 
   return 0;
 }
+
+//Output
+/*
+Enter the Number of Product Codes:2
+Enter the product Codes:
+madam
+ani
+
+Product Report
+---------------
+madam:Palindrome
+ani:Not Palindrome
+*/
