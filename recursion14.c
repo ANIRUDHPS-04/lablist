@@ -34,3 +34,11 @@ int main()
 
     return 0;
 }
+
+//Output
+/*
+
+Enter a sentence: I love computer science
+Reversed sentence: science computer love I
+
+*/
