@@ -37,3 +37,10 @@ int main()
 
     return 0;
 }
+
+//Output
+/*
+Enter a document: madam
+Reversed document: madam
+The document is a palindrome.
+*/
