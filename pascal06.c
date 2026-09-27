@@ -51,9 +51,13 @@ int main()
   return 0;
   }
 
+/* **********OUTPUT**********
+
 Enter the Number:5
 * * * * *
       *
     *
   *
 * * * * *
+
+*/
