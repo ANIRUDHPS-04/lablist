@@ -130,6 +130,8 @@ int main()
     return 0;
 }
 
+/* **********OUTPUT**********
+
 Enter the Number of Customers: 5
 
 Enter Customers Addresses:
@@ -146,3 +148,5 @@ anirudh@gmail.com
 test@gmail.com
 hello@yahoo.com
 student@college.in
+
+*/    
