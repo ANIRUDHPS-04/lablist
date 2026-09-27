@@ -62,10 +62,11 @@ for(i=2;i<=n;i++)
 
 return 0;}
 
-//Output
-/*
+/* **********OUTPUT**********
+
 Enter the Upper limit:10
 
 Prime number upto 10 are:
 2 3 5 7 
-*/
+
+*/     
