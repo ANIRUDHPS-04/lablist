@@ -75,8 +75,8 @@ int main()
   return 0;
 }
 
-//Output
-/*
+/* **********OUTPUT**********
+
 Enter the Number of Product Codes:2
 Enter the product Codes:
 madam
@@ -86,4 +86,5 @@ Product Report
 ---------------
 madam:Palindrome
 ani:Not Palindrome
+
 */
