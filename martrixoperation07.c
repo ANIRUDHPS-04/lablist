@@ -67,6 +67,8 @@ printf("trace= %d\n",t);
 transpose(r,c);
 return 0;}matrix operation
 
+/* **********OUTPUT**********
+
 enter no.of rows and columns
 3 3
 enetr data
@@ -88,3 +90,6 @@ transpose:
 1       4       7
 2       5       8
 3       6       9
+
+*/
+
