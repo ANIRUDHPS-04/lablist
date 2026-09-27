@@ -1,3 +1,34 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 08
+DATE: 
+
+**********Matrix Multiplication for Image Processing**********
+
+AIM: Implement matrix multiplication to apply a transformation matrix to an image. The program should accept
+     a 2D image matrix and a transformation matrix, then output the transformed image.
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+Step 2: Declare matrices a, b, and c and variables r1, c1, r2, c2, i, j, and k.
+Step 3: Read the number of rows and columns of the first matrix.
+Step 4: Read the elements of the first matrix.
+Step 5: Read the number of rows and columns of the second matrix.
+Step 6: Read the elements of the second matrix.
+Step 7: Check whether the number of columns of the first matrix is equal to the number of rows of the second matrix.
+Step 8: If c1 != r2, display "Matrix multiplication is not possible" and stop.
+Step 9: Initialize each element of the result matrix c[i][j] to 0.
+Step 10: Multiply each element of a row of the first matrix with the corresponding element of a column of the second matrix and add the products.
+Step 11: Store the calculated value in the result matrix c.
+Step 12: Display the resulting matrix.
+Step 13: Stop.
+
+*/
+
+/* **********SOURCE CODE********** */
 #include<stdio.h>
 int main(){
   int i,j,a[10][10],b[10][10],r1,r2,c1,c2;
@@ -34,3 +65,4 @@ int main(){
 }
   return 0;
 }
+
