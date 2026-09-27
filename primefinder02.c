@@ -73,8 +73,8 @@ int main() {
   return 0;
 }
 
-//Output
-/*
+/* **********OUTPUT**********
+
 Enter the Number of Elements:4
 Enter 4 Numbers:
 1
@@ -83,6 +83,5 @@ Enter 4 Numbers:
 4
 
 Prime Numbers are:2 3
-*/
-  
 
+*/     
