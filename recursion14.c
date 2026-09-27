@@ -66,8 +66,7 @@ int main()
     return 0;
 }
 
-//Output
-/*
+/* **********OUTPUT**********
 
 Enter a sentence: I love computer science
 Reversed sentence: science computer love I
