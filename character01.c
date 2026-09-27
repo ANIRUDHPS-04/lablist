@@ -79,8 +79,8 @@ int main()
     return 0;
 }
 
-//Output
-/*
+/* **********OUTPUT**********
+
 Enter the String: ani@1
 
 Character Breakdown:
@@ -91,4 +91,5 @@ i - Vowel
 1 - Digit
 
 Summary: 2 Vowels, 1 Consonants, 1 Digits, 1 Others
+
 */
