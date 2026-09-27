@@ -66,8 +66,8 @@ int main()
   return 0;
 }
 
-//Output
-/*
+/* **********OUTPUT**********
+
 Enter the size of matrix:3
 Enter the matrix:
 1 2 3
@@ -80,4 +80,5 @@ Matrix:
 3 5 6 
 
 The Matrix is symmetric.
+
 */
