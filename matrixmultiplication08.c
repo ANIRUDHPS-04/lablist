@@ -66,3 +66,22 @@ int main(){
   return 0;
 }
 
+/* **********OUTPUT**********
+
+Enter the noof rows and cols of 1st matrix
+2 2
+Enter the data
+1 2
+3 4
+
+Enter the noof rows and cols of 2nd matrix
+2 2
+Enter the data
+5 6
+7 8
+
+Matrix multiplication
+19      22
+43      50
+
+*/
