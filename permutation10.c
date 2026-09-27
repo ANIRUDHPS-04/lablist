@@ -70,8 +70,8 @@ int main()
     return 0;
 }
 
-//Output
-/*
+/* **********OUTPUT**********
+
 Enter a string: ABC
 All permutations:
 ABC
@@ -80,4 +80,5 @@ BAC
 BCA
 CBA
 CAB
+
 */
