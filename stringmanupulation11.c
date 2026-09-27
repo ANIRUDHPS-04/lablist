@@ -1,3 +1,34 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 11
+DATE: 
+
+**********String Manipulation Utility**********
+
+AIM: Create an application that implements a suite of string functions like concatenation, comparison, and 
+     conversion (uppercase to lowercase), which can be applied to a list of user-provided strings.
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+Step 2: Declare three character arrays str1, str2, and result.
+Step 3: Read the first string from the user.
+Step 4: Read the second string from the user.
+Step 5: Remove the newline character from both strings.
+Step 6: Copy the first string into result.
+Step 7: Concatenate the second string to result.
+Step 8: Compare the two strings using strcmp().
+Step 9: Display whether the two strings are equal or not.
+Step 10: Convert all characters of the first string to lowercase using tolower().
+Step 11: Convert all characters of the second string to uppercase using toupper().
+Step 12: Display the concatenated string, comparison result, lowercase first string, and uppercase second string.
+Step 13: Stop.
+
+*/
+
+/* **********SOURCE CODE********** */
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
