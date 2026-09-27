@@ -89,3 +89,20 @@ int main()
 
     return 0;
 }
+
+/* **********OUTPUT**********
+
+Enter Employee ID: 101
+Enter Employee Name: Anirudh
+Enter Salary: 35000
+Enter Department: Computer Science
+
+--- Employee Details ---
+ID: 101
+Name: Anirudh
+Salary: 35000.00
+Department: Computer Science
+
+Do you want to update the details? (1-Yes / 0-No): 0
+
+*/    
