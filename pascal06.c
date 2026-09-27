@@ -1,3 +1,29 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 06
+DATE: 
+
+**********Dynamic Data Display(Patterns)**********
+
+AIM: •	Develop an application that displays Pascal's Triangle dynamically based on user input for the number of rows.
+     •	Also, create a pattern generator (e.g., number or star pattern) that can be customized with user input.
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+Step 2: Declare integer variables i, j, and n.
+Step 3: Read the value of n from the user.
+Step 4: Print n stars in the first row.
+Step 5: Print a newline.
+Step 6: Print the middle rows with spaces followed by a star, decreasing the number of spaces in each row.
+Step 7: Print n stars in the last row.
+Step 8: Stop.
+
+*/
+
+/* **********SOURCE CODE********** */
 #include<stdio.h>
 int main()
 {  
