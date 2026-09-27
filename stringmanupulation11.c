@@ -76,8 +76,8 @@ int main()
     return 0;
 }
 
-//Output
-/*
+/* **********OUTPUT**********
+
 Enter first string: HELLO
 Enter second string: world
 
@@ -86,4 +86,5 @@ Concatenation: HELLOworld
 Comparison: Strings are not equal
 First string in lowercase: hello
 Second string in uppercase: WORLD
+
 */
