@@ -2,7 +2,7 @@
 NAME: ANIRUDH P S
 Roll No: CS03
 EX NO: 02
-DATE: 
+DATE: 28-09-2026 
 
 **********Prime Number Finder for Data Processing**********
 

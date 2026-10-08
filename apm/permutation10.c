@@ -2,7 +2,7 @@
 NAME: ANIRUDH P S
 Roll No: CS03
 EX NO: 10
-DATE: 
+DATE: 29-08-2026 
 
 **********Permutation Generator for Password Cracking Simulation**********
 

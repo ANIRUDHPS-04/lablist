@@ -2,7 +2,7 @@
 NAME: ANIRUDH P S
 Roll No: CS03
 EX NO: 03
-DATE: 
+DATE: 19-07-2026 
 
 **********Efficient Prime Number Generation**********
 

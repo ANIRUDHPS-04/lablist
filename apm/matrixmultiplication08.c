@@ -2,7 +2,7 @@
 NAME: ANIRUDH P S
 Roll No: CS03
 EX NO: 08
-DATE: 
+DATE: 18-09-2026 
 
 **********Matrix Multiplication for Image Processing**********
 

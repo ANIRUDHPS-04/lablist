@@ -2,7 +2,7 @@
 NAME: ANIRUDH P S
 Roll No: CS03
 EX NO: 06
-DATE: 
+DATE: 03-08-2026 
 
 **********Dynamic Data Display(Patterns)**********
 

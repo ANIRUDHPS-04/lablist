@@ -2,7 +2,7 @@
 NAME: ANIRUDH P S
 Roll No: CS03
 EX NO: 01
-DATE: 
+DATE: 01-07-2026 
 
 **********Character Analysis Tool**********
 

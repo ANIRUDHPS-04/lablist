@@ -2,7 +2,7 @@
 NAME: ANIRUDH P S
 Roll No: CS03
 EX NO: 04
-DATE: 
+DATE: 06-08-2026 
 
 **********Palindrome Checker for Database Records**********
 
