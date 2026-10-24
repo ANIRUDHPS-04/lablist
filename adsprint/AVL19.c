@@ -1,4 +1,56 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 19
+DATE: 25-09-2026
 
+**********Implementation of   AVL  tree (balanced  tree)**********
+
+AIM: Create a program that allows Implementation of   AVL  tree (balanced  tree)
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+
+Step 2: Create a node containing data, height, left pointer, and right pointer.
+
+Step 3: Display the menu with the following operations:
+1. Insert
+2. Delete
+3. Inorder traversal
+4. Preorder traversal
+5. Postorder traversal
+6. Exit
+Step 4: Insertion
+      - Insert the new node according to the Binary Search Tree (BST) property.
+      - Update the height of each affected node.
+      - Calculate the balance factor.
+      - If the tree becomes unbalanced, perform the appropriate rotation (LL, RR, LR, or RL).
+Step 5: Deletion
+      - Search for the node to be deleted.
+      - Delete the node according to BST deletion rules.
+      - Update the height of affected nodes.
+      - Calculate the balance factor and perform the required rotations to balance the tree.
+Step 6: Inorder Traversal
+      - Traverse the left subtree.
+      - Display the root node.
+      - Traverse the right subtree.
+Step 7: Preorder Traversal
+      - Display the root node.
+      - Traverse the left subtree.
+      - Traverse the right subtree.
+Step 8: Postorder Traversal
+      - Traverse the left subtree.
+      - Traverse the right subtree.
+      - Display the root node.
+Step 9: Repeat Steps 3–8 until the user selects Exit.
+
+Step 10: Stop.
+
+*/
+
+/* **********SOURCE CODE********** */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -270,3 +322,29 @@ int main()
 
     return 0;
 }
+
+/*  OUTPUT 
+
+--- AVL TREE MENU ---
+1. Insert
+2. Delete
+3. Inorder Traversal
+4. Preorder Traversal
+5. Postorder Traversal
+6. Exit
+Enter your choice: 1
+Enter value to insert: 30
+
+Enter your choice: 1
+Enter value to insert: 20
+
+Enter your choice: 1
+Enter value to insert: 10
+
+Enter your choice: 3
+Inorder: 10 20 30
+
+Enter your choice: 4
+Preorder: 20 10 30
+
+*/    
