@@ -1,3 +1,63 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 17
+DATE: 25-09-2026
+
+**********Implementation  of  Deque (double ended  queue)**********
+
+AIM: Create a program that allows Implementation  of  Deque (double ended  queue)
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+
+Step 2: Initialize front = -1 and rear = -1.
+
+Step 3: Display the menu:
+1. Insert at Front
+2. Insert at Rear
+3. Delete from Front
+4. Delete from Rear
+5. Display
+6. Exit
+Step 4: Read the user's choice.
+
+Step 5: Perform the selected operation:
+
+      - Insert at Front:
+      - Check whether the deque is full.
+      - If empty, set front = rear = 0.
+      - Otherwise, update front circularly.
+      - Insert the element at the front.
+      - Insert at Rear:
+      - Check whether the deque is full.
+      - If empty, set front = rear = 0.
+      - Otherwise, update rear circularly.
+      - Insert the element at the rear.
+      - Delete from Front:
+      - Check whether the deque is empty.
+      - If empty, display an underflow message.
+      - Otherwise, delete the front element and update front.
+      - If it was the last element, set front = rear = -1.
+      - Delete from Rear:
+      - Check whether the deque is empty.
+      - If empty, display an underflow message.
+      - Otherwise, delete the rear element and update rear.
+      - If it was the last element, set front = rear = -1.
+      - Display:
+      - If the deque is empty, display an appropriate message.
+      - Otherwise, display all elements from front to rear, considering circular positions.
+      - Exit:
+      - Terminate the program.
+Step 6: Repeat Steps 3–5 until the user selects Exit.
+
+Step 7: Stop.
+
+*/
+
+/* **********SOURCE CODE********** */
 
 #include <stdio.h>
 #define MAX 5
@@ -190,3 +250,38 @@ int main()
 
     return 0;
 }
+
+/*  OUTPUT
+
+--- DEQUE MENU ---
+1. Insert at Front
+2. Insert at Rear
+3. Delete from Front
+4. Delete from Rear
+5. Display
+6. Exit
+Enter your choice: 2
+Enter value: 10
+Inserted at rear
+
+Enter your choice: 2
+Enter value: 20
+Inserted at rear
+
+Enter your choice: 1
+Enter value: 5
+Inserted at front
+
+Enter your choice: 5
+Deque elements: 5 10 20
+
+Enter your choice: 3
+Deleted element: 5
+
+Enter your choice: 5
+Deque elements: 10 20
+
+Enter your choice: 6
+Exiting...
+
+*/
