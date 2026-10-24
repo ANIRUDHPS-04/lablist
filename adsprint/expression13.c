@@ -1,3 +1,49 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 13
+DATE: 25-09-2026
+
+**********Implementation  of  graphs  and  graph  traversals**********
+
+AIM: Create a program that allows Implementation  of  graphs  and  graph  traversals.
+*/
+
+/* **********ALGORITHM**********
+
+## Algorithm: Conversion of Infix Expression to Postfix Using Stack
+
+Step 1: Start.
+
+Step 2: Initialize an empty stack and set `top = -1`.
+
+Step 3: Read the infix expression from the user.
+
+Step 4: Scan the infix expression from left to right.
+
+Step 5: For each character in the expression:
+
+      - If the character is an operand (letter or digit), add it to the postfix expression.
+      - If the character is '(', push it onto the stack.
+      - If the character is ')', pop operators from the stack and add them to the postfix expression until
+        '(' is found. Remove '(' from the stack.
+      - If the character is an operator (`+`, `-`, `*`, `/`, `^`):
+          - Pop operators with higher precedence from the stack and add them to the postfix expression.
+          - If the precedence is equal, pop the operator unless the current operator is `^`.
+          - Push the current operator onto the stack.
+
+Step 6: Repeat Step 5 until the entire infix expression is scanned.
+
+Step 7: Pop all remaining operators from the stack and add them to the postfix expression.
+
+Step 8: Add the null character (`'\0'`) at the end of the postfix expression.
+
+Step 9: Display the postfix expression.
+
+Step 10: Stop.
+*/
+
+/* **********SOURCE CODE********** */
 
 #include <stdio.h>
 #include <ctype.h>
@@ -78,3 +124,10 @@ int main()
 
     return 0;
 }
+
+/*  OUTPUT
+
+Enter infix expression: (A+B)*C
+Postfix expression: AB+C*
+
+*/
