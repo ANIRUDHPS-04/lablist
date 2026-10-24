@@ -11,8 +11,6 @@ AIM: Create a program that allows Implementation  of  graphs  and  graph  traver
 
 /* **********ALGORITHM**********
 
-## Algorithm: Conversion of Infix Expression to Postfix Using Stack
-
 Step 1: Start.
 
 Step 2: Initialize an empty stack and set `top = -1`.
