@@ -1,3 +1,41 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 10
+DATE: 25-09-2026
+
+**********Implementation  of  binary  search  trees  and  perform  the    operations  on  BST**********
+
+AIM: Create a program that allows Implementation  of  binary  search  trees  and  perform  the  operations  on  BST
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+Step 2: Initialize the root of the Binary Search Tree as NULL.
+Step 3: Display the menu containing the following operations:
+- Insert
+- Delete
+- Search
+- Inorder Traversal
+- Preorder Traversal
+- Postorder Traversal
+- Display Tree
+- Exit
+Step 4: Read the user's choice.
+Step 5: Perform the selected operation:
+      - Insertion: If the tree is empty, create a new node as the root. Otherwise, compare the value with the current node and insert it into the left subtree if smaller or the right subtree if greater.
+      - Deletion: Search for the node to be deleted. If it has no children, remove it directly. If it has one child, replace it with its child. If it has two children, replace its value with the minimum value in its right subtree and delete that node.
+      - Searching: Compare the required value with the current node. If equal, the value is found. If smaller, search the left subtree; otherwise, search the right subtree.
+      - Inorder Traversal: Visit the left subtree, root node, and right subtree.
+      - Preorder Traversal: Visit the root node, left subtree, and right subtree.
+      - Postorder Traversal: Visit the left subtree, right subtree, and root node.
+      - Display Tree: Display the nodes of the BST in tree format.
+Step 6: Repeat Steps 4 and 5 until the user selects Exit.
+Step 7: Stop.
+*/
+
+/* **********SOURCE CODE********** */
 
 #include <stdio.h>
 #include <stdlib.h>
