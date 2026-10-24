@@ -1,3 +1,49 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 09
+DATE: 25-09-2026
+
+**********Implementation  of  binary  tree  and  traversals**********
+
+AIM: Create a program that allows Implementation  of  binary  tree  and  traversals
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+Step 2: Create an empty binary search tree by initializing root = NULL.
+Step 3: Display the menu with the following options:
+- Insert a node
+- Inorder traversal
+- Preorder traversal
+- Postorder traversal
+- Exit
+Step 4: Read the user's choice.
+Step 5: If the choice is Insert:
+       1. Read the data.
+       2. Create a new node.
+       3. If the tree is empty, make the new node the root.
+       4. If the data is smaller than the current node, insert it into the left subtree.
+       5. If the data is larger than the current node, insert it into the right subtree.
+Step 6: If the choice is Inorder Traversal:
+       1. Traverse the left subtree.
+       2. Visit the root node.
+       3. Traverse the right subtree.
+Step 7: If the choice is Preorder Traversal:
+       1. Visit the root node.
+       2. Traverse the left subtree.
+       3. Traverse the right subtree.
+Step 8: If the choice is Postorder Traversal:
+       1. Traverse the left subtree.
+       2. Traverse the right subtree.
+       3. Visit the root node.
+Step 9: If the choice is Exit, terminate the program.
+Step 10: Repeat Steps 3–9 until the user selects Exit.
+Step 11: Stop.
+*/
+
+/* **********SOURCE CODE********** */
 
 #include <stdio.h>
 #include <stdlib.h>
