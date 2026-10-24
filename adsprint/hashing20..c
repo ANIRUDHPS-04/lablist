@@ -1,3 +1,52 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 20
+DATE: 25-09-2026
+
+**********Implementation  of  hashing  using  separate  chaining**********
+
+AIM: Create a program that allows Implementation  of  hashing  using  separate  chaining
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+
+Step 2: Initialize a hash table of size 10 with all entries set to NULL.
+
+Step 3: Display the menu:
+1. Insert
+2. Search
+3. Display
+4. Exit
+Step 4: Read the user's choice.
+
+Step 5: If the choice is Insert:
+        - Read the element.
+        - Calculate the hash index using index = key % SIZE.
+        - Create a new node containing the element.
+        - Insert the node at the beginning of the linked list at that index.
+        - Display the insertion message.
+Step 6: If the choice is Search:
+        - Read the element to be searched.
+        - Calculate its hash index.
+        - Traverse the linked list at that index.
+        - If the element is found, display the index; otherwise, display "Element not found."
+Step 7: If the choice is Display:
+        - Traverse each index of the hash table.
+        - Display all elements in the linked list at each index.
+Step 8: If the choice is Exit, terminate the program.
+
+Step 9: Otherwise, display "Invalid choice."
+
+Step 10: Repeat Steps 3–9 until the user chooses Exit.
+
+Step 11: Stop.
+
+*/
+
+/* **********SOURCE CODE********** */
 
 #include <stdio.h>
 #include <stdlib.h>
