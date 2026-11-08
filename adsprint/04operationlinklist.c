@@ -1,3 +1,56 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 04
+DATE: 25-09-2026
+
+**********Implementation  of  linkedlists  and  operations  on  linkedlists**********
+
+AIM: Create a program that allows Implementation  of  linkedlists  and  operations  on  linkedlists
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+Step 2: Define a node structure containing data and a pointer next.
+Step 3: Initialize head = NULL.
+Step 4: Display the menu and read the user's choice.
+Step 5: Perform the selected operation:
+  1. Insert at Beginning
+     1. Create a new node using malloc().
+     2. Read data from the user.
+     3. Set newNode->next = head.
+     4. Update head = newNode.
+  2. Insert at End
+     1. Create a new node and read data.
+     2. Set newNode->next = NULL.
+     3. If the list is empty, make the new node the head.
+     4. Otherwise, traverse to the last node.
+     5. Link the last node to the new node.
+  3. Delete from Beginning
+     1. Check whether the list is empty.
+     2. Store the first node in a temporary pointer.
+     3. Move head to the next node.
+     4. Free the deleted node.
+  4. Delete from End
+     1. Check whether the list is empty.
+     2. If only one node exists, delete it and set head = NULL.
+     3. Otherwise, traverse to the last node.
+     4. Set the previous node's next = NULL.
+     5. Free the last node.
+  5. Display
+     1. Check whether the list is empty.
+     2. Start traversal from head.
+     3. Display each node's data.
+     4. Move to the next node until NULL is reached.
+  6. Exit
+Terminate the program.
+Step 6: Repeat the menu until the user selects Exit.
+Step 7: Stop.
+*/
+
+/* **********SOURCE CODE********** */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -173,8 +226,8 @@ int main()
     return 0;
 }
 
- OUTPUT
- /*
+/* OUTPUT
+ 
 --- LINKED LIST OPERATIONS ---
 1. Insert at Beginning
 2. Insert at End
@@ -261,4 +314,4 @@ Linked List: 10 -> NULL
 5. Display
 6. Exit
 Enter your choice: 6
-    */
+*/
