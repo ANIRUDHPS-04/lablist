@@ -2,7 +2,7 @@
 NAME: ANIRUDH P S
 Roll No: CS03
 EX NO: 10
-DATE: 25-09-2026
+DATE: 30-07-2026
 
 **********Implementation  of  binary  search  trees  and  perform  the    operations  on  BST**********
 
