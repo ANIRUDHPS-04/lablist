@@ -1,3 +1,49 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 18
+DATE: 17-09-2026
+
+**********Implementation  of  priority queue**********
+
+AIM: Create a program that allows Implementation  of  priority queue
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+Step 2: Define an Item structure containing data and priority. Declare an array pq[MAX] and initialize size = 0.
+Step 3: Implement the HIGHERPRIORITY(a, b) function:
+- If priorities are equal, return true if a.data > b.data.
+- Otherwise, return true if a.priority > b.priority.
+Step 4: Implement the ENQUEUE operation:
+- Check whether the queue is full (size == MAX). If full, display Overflow.
+- Insert the new item at pq[size].
+- Increment size.
+- Compare the new element with its parent at index (i-1)/2.
+- Swap if the child has higher priority.
+- Repeat until the heap property is restored.
+Step 5: Implement the DEQUEUE operation:
+- Check whether the queue is empty (size == 0). If empty, display Underflow.
+- Display the root element pq[0] as the deleted element.
+- Replace the root with the last element pq[size-1].
+- Decrement size.
+- Compare the root with its left child (2*i+1) and right child (2*i+2).
+- Swap with the highest-priority child until the heap property is restored.
+Step 6: Implement the DISPLAY operation:
+- Traverse the array from index 0 to size-1.
+- Display the data and priority of each element.
+Step 7: Create a menu-driven main function with the following options:
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+Step 8: Read the user's choice and perform the corresponding operation.
+Step 9: Repeat Steps 7 and 8 until the user selects Exit.
+Step 10: Stop.
+*/
+
+/* **********SOURCE CODE********** */
 
 #include <stdio.h>
 #define MAX 100
