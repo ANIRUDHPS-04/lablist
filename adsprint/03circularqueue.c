@@ -1,3 +1,45 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 03
+DATE: 25-09-2026
+
+**********Implementation  of  circular  queue  using  arrays**********
+
+AIM: Create a program that allows Implementation  of  circular  queue  using  arrays
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+Step 2: Declare an array queue[MAX] and initialize front = -1 and rear = -1.
+Step 3: Display the menu and read the user's choice.
+Step 4: Perform the selected operation:
+  1. Enqueue (Insertion)
+     1. Check whether the queue is full using the circular queue condition.
+     2. If full, display "Queue is Full".
+     3. Otherwise, read the value from the user.
+     4. If the queue is empty, set front = rear = 0.
+     5. Otherwise, update rear = (rear + 1) % MAX.
+     6. Insert the value at queue[rear].
+  2. Dequeue (Deletion)
+     1. Check whether the queue is empty.
+     2. If empty, display "Queue is Empty".
+     3. Otherwise, delete the element at front.
+     4. If front == rear, set both to -1.
+     5. Otherwise, update front = (front + 1) % MAX.
+  3. Display
+     1. Check whether the queue is empty.
+     2. Start from front.
+     3. Display each element until rear is reached.
+     4. Move to the next position using circular increment.
+  4. Exit
+Terminate the program.
+Step 5: Repeat the menu until the user selects Exit.
+Step 6: Stop.
+*/
+
+/* **********SOURCE CODE********** */
 
 #include <stdio.h>
 #define MAX 5
@@ -119,3 +161,36 @@ int main()
 
     return 0;
 }
+
+/*  OUTPUT
+
+--- CIRCULAR QUEUE ---
+1. Enqueue
+2. Dequeue
+3. Display
+4. Exit
+
+Enter your choice: 1
+Enter value: 10
+10 inserted
+
+Enter your choice: 1
+Enter value: 20
+20 inserted
+
+Enter your choice: 1
+Enter value: 30
+30 inserted
+
+Enter your choice: 3
+Queue: 10 20 30
+
+Enter your choice: 2
+10 deleted
+
+Enter your choice: 3
+Queue: 20 30
+
+Enter your choice: 4
+
+*/
