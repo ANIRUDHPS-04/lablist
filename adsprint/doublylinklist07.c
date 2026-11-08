@@ -1,3 +1,32 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 07
+DATE: 25-09-2026
+
+**********Implementation  of  doubly  linkedlist**********
+
+AIM: Create a program that allows Implementation  of  doubly  linkedlist
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+Step 2: Initialize head = NULL.
+Step 3: Display the menu and read the user's choice.
+Step 4: Perform the selected operation:
+      1. Insert at Beginning: Create a new node and insert it before the first node.
+      2. Insert at End: Create a new node and insert it after the last node.
+      3. Delete at Beginning: Remove the first node and update head.
+      4. Delete at End: Remove the last node.
+      5. Display Forward: Traverse and display nodes from first to last.
+      6. Display Backward: Traverse and display nodes from last to first.
+      7. Exit: Terminate the program.
+Step 5: Repeat the menu until the user selects Exit.
+Step 6: Stop.
+*/
+
+/* **********SOURCE CODE********** */
 
 #include <stdio.h>
 #include <stdlib.h>
