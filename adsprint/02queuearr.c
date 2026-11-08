@@ -1,3 +1,44 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 02
+DATE: 25-09-2026
+
+**********Implementation  of  queues  using  arrays**********
+
+AIM: Create a program that allows Implementation  of  queues  using  arrays
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+Step 2: Declare an array queue[MAX] and initialize front = -1 and rear = -1.
+Step 3: Display the menu and read the user's choice.
+Step 4: Perform the selected operation:
+  1. Enqueue (Insertion)
+     1. Check whether rear == MAX - 1.
+     2. If true, display "Queue Overflow".
+     3. Otherwise, read an element from the user.
+     4. If the queue is empty, set front = 0.
+     5. Insert the element at queue[++rear].
+  2. Dequeue (Deletion)
+     1. Check whether the queue is empty.
+     2. If empty, display "Queue Underflow".
+     3. Otherwise, delete the element at the front.
+     4. Increment front by one.
+     5. If all elements are deleted, set front = rear = -1.
+  3. Display
+     1. Check whether the queue is empty.
+     2. If empty, display "Queue is empty".
+     3. Otherwise, traverse from front to rear.
+     4. Display all queue elements.
+  4. Exit
+Terminate the program.
+Step 5: Repeat the menu until the user selects Exit.
+Step 6: Stop.
+*/
+
+/* **********SOURCE CODE********** */
 
 #include <stdio.h>
 #define MAX 5
@@ -81,7 +122,7 @@ int main()
 
             case 3:
                 display();
-                break;
+                break; 
 
             case 4:
                 return 0;
@@ -114,5 +155,4 @@ Deleted element: 10
 
 Enter your choice: 3
 Queue elements: 20
-
 */
