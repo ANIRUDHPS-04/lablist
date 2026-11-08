@@ -1,3 +1,31 @@
+/*
+NAME: ANIRUDH P S
+Roll No: CS03
+EX NO: 16
+DATE: 25-09-2026
+
+**********Implementation  of  Huffman  algorithm**********
+
+AIM: Create a program that allows Implementation  of  Huffman  algorithm
+*/
+
+/* **********ALGORITHM**********
+
+Step 1: Start.
+Step 2: Read the number of characters and their corresponding frequencies.
+Step 3: Create a leaf node for each character with its frequency.
+Step 4: Select the two nodes having the smallest frequencies.
+Step 5: Create a new internal node by adding the frequencies of the two selected nodes.
+Step 6: Make the first selected node the left child and the second selected node the right child.
+Step 7: Insert the new node into the list and remove the two selected nodes.
+Step 8: Repeat Steps 4 to 7 until only one node remains.
+Step 9: Assign 0 to every left branch and 1 to every right branch.
+Step 10: Traverse the Huffman tree from root to leaf to obtain the binary code for each character.
+Step 11: Display the Huffman codes.
+Step 12: Stop.
+*/
+
+/* **********SOURCE CODE********** */
 
 #include <stdio.h>
 #include <stdlib.h>
