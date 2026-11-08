@@ -2,7 +2,7 @@
 NAME: ANIRUDH P S
 Roll No: CS03
 EX NO: 16
-DATE: 25-09-2026
+DATE: 13-07-2026
 
 **********Implementation  of  Huffman  algorithm**********
 
